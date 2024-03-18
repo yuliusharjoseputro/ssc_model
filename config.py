@@ -8,7 +8,7 @@ def get_config():
     hp["inputs"] = Input((hp["image_size"], hp["image_size"], hp["num_channels"]))
     hp["input_shape"] = (hp["image_size"], hp["image_size"], hp["num_channels"])
 
-    hp["batch_size"] = 4 #16
+    hp["batch_size"] = 8 #16
     hp["lr"] = 1e-4 #1e-4
     hp["num_epochs"] = 120
     hp["dropout_rate_list"] = [0.3]##[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
