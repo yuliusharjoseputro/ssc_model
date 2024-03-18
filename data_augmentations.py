@@ -8,7 +8,7 @@ from albumentations import HorizontalFlip, VerticalFlip, GridDistortion, Optical
 from sklearn.model_selection import KFold
 
 sep = "\\"
-master_path = "C:"+sep+"Baseline Dataset"+sep+"dataset_fix"+sep
+master_path = "C:"+sep+"Baseline_Dataset"+sep+"dataset_fix"+sep
 H = 256
 W = 256
 
